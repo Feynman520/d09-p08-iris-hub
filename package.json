@@ -1,0 +1,17 @@
+{
+  "name": "iris-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "IRIS Hub: the shared server (Supabase schema, RLS policies, operations) behind IRIS Messenger and the IRIS feedback inbox",
+  "author": "Sejun Ham (함세준)",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "deploy:hub": "node server/deploy.mjs",
+    "verify:rls": "node scripts/verify-rls.mjs",
+    "ops:daily": "node server/ops/daily.mjs",
+    "ops:feedback": "node server/ops/feedback.mjs"
+  }
+}

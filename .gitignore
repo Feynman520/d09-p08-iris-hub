@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.local
+.vercel
+.superpowers/
+docs/제작기록*
