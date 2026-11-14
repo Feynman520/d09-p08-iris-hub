@@ -35,3 +35,9 @@ npm run verify:rls   # 실제 허브에 대고 접근 규칙 확인(운영자 �
 ---
 
 **English summary.** IRIS Hub is the shared server behind IRIS Messenger and the IRIS feedback inbox: Supabase schema, row-level-security policies, and operator tooling. It never receives users' work content; messages pass only as end-to-end encrypted ciphertext. To self-host, see [`server/README.md`](server/README.md). License: MIT.
+
+## 기여 (Contributing)
+
+의견과 PR 안내는 [CONTRIBUTING.md](CONTRIBUTING.md)를, 보안 문제 신고는 [SECURITY.md](SECURITY.md)를 봐 주세요.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute and [SECURITY.md](SECURITY.md) for reporting security issues.
